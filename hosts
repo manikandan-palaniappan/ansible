@@ -1,5 +1,8 @@
+myhost
+
 [webserver]
 slave1
+
 [appserver]
 slave2
 

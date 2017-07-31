@@ -1,0 +1,8 @@
+- name: "Installing Git Software :"
+  yum:
+     name:  git
+     state: installed
+  #with_items: {{ vim, git }}
+  
+#- name: "Adding Bashrc"
+#  copy: src=../files/bash.bashrc dest=/etc/bash.bashrc owner=root group=root mode=0644

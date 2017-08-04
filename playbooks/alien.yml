@@ -1,0 +1,6 @@
+---
+# file: movies.yml
+- hosts: all
+
+  roles:
+    - { role: aliens }

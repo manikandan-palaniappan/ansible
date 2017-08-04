@@ -1,8 +1,0 @@
----
-- hosts: appserver
-
-  roles:
-  - async-job
-
-  tags:
-  - longer-run
